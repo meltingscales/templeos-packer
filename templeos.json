@@ -21,7 +21,6 @@
         "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
         "y <wait><wait><wait>",
         "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
-        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
         "1",
         "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
         "n",
@@ -31,6 +30,12 @@
       ]
     }
   ],
-  "post-processors": null
+  "post-processors": [
+    {
+      "type": "vagrant",
+      "keep_input_artifact": true,
+      "output": "output/templeos.box"
+    }
+  ]
 }
 

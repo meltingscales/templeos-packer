@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-packer build templeos.json
+packer build -force templeos.json
