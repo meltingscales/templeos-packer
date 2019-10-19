@@ -1,0 +1,32 @@
+{
+  "variables": {
+    "aws_access_key": "",
+    "aws_secret_key": ""
+  },
+  "builders": [
+    {
+      "type": "virtualbox-iso",
+      "iso_url": "https://christine.website/static/tos/TOS_Distro.ISO",
+      "iso_checksum": "7a382d802039c58fb14aab7940ee2e4efb57d132d0cff58878c38111d065a235562b27767de4382e222208285f3edab172f29dba76cb70c37f116d9521e54c45",
+      "iso_checksum_type": "SHA512",
+      "guest_additions_mode": "disable",
+      "guest_os_type": "Linux_64",
+      "shutdown_command": "",
+      "communicator": "none",
+      "virtualbox_version_file": "",
+      "boot_command": [
+        "<wait>",
+        "y <wait><wait><wait>",
+        "y <wait><wait><wait>",
+        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
+        "y <wait><wait><wait>",
+        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
+        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
+        "1",
+        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>"
+      ]
+    }
+  ],
+  "post-processors": null
+}
+
