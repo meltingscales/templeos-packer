@@ -20,3 +20,7 @@ cd templeos_vagrant
 vagrant init henryfbp/templeos
 vagrant up
 ```
+
+SSH will fail as TempleOS has no networking.
+
+You need to then open VirtualBox, choose `1` for the HDD selection, and enjoy TempleOS.
