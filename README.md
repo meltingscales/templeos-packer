@@ -1,5 +1,11 @@
 # templeos-packer
 
+## Prerequisites
+
+Install VirtualBox and Vagrant for running.
+
+For building, install packer as well.
+
 ## What is this?
 
 This is a packer setup for making a TempleOS vagrant .box file.
