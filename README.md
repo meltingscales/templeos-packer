@@ -4,7 +4,7 @@
 
 Install VirtualBox and Vagrant for running.
 
-For building, install packer as well.
+For building, install Packer as well.
 
 ## What is this?
 
