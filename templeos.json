@@ -23,7 +23,11 @@
         "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
         "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
         "1",
-        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>"
+        "<wait><wait><wait><wait><wait><wait><wait><wait><wait><wait>",
+        "n",
+        "\"hey andrew this is how you can automatically set up hard drive images its cool huh\";<enter>",
+        "Reboot();<enter>",
+        "<wait><wait><wait>"
       ]
     }
   ],
