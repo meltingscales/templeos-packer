@@ -2,15 +2,21 @@
 
 ## What is this?
 
-packer image for building TempleOS image
+This is a packer setup for making a TempleOS vagrant .box file.
 
 ## Building
 
-`packer build templeos.json`
+`./packer-image-build.sh` produces a .box file in `./output/`.
 
 ## Running
 
-TODO
+See my Vagrant box file [at this link](https://app.vagrantup.com/henryfbp/boxes/templeos).
 
-- lol
-- ur mom gay
+Or, run this:
+
+```bash
+mkdir templeos_vagrant
+cd templeos_vagrant
+vagrant init henryfbp/templeos
+vagrant up
+```
