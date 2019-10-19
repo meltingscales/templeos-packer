@@ -3,3 +3,4 @@ download/
 packer_cache/
 output-virtualbox-iso/
 output/
+.fuse_hidden*
